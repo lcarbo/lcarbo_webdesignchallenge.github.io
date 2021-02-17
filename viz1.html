@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./Assets/bootstrap_flatly_template.css" media="screen">
+
+  </head>
+  <body>
+    <div class="container">
+        <nav class = "navbar navbar-expand-lg navbar-light bg-light"> 
+            <a class = "navbar-brand" href="#">Weather Analysis</a>
+            <button class = "navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls= "navbarColor03" aria-expanded="false" aria-label= "Toggle navigation">
+                <span class= "navbar-toggler-icon"></span>
+            </button>
+            <div class = "collapse navbar-collapse" id = "navbarColor01">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Viz_Comparison.html">Comparison</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="true"> Plots <span class="sr-only">(current)</span></a>
+                        <div class= "dropdown-menu">
+                            <a class="dropdown-item active" href="viz1.html">Visualization 1<span class="sr-only">(current)</span></a>
+                            <a class="dropdown-item" href="viz2.html">Visualization 2</a>
+                            <a class="dropdown-item" href="viz3.html">Visualization 3</a>
+                            <a class="dropdown-item" href="viz4.html">Visualization 4</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="data_table.html">Data </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <hr>
+        <div class="row">
+            <div class="col-lg-9">
+                <div class = "row"> 
+                    <h2> Latitude v. Wind Speed</h2>
+                </div>
+                <div class= "row">
+                    <img src="visualizations/LatvWind_all.png" alt = "Latitude v. Wind" class="figure-img"></a>
+                </div>
+                <div class = "row"> 
+                    <p>When comparing latitude and wind speed, there was no notable correlation between these two variables.
+                    <br></p>
+                </div>
+            </div>
+            <div class ="col-lg-3">
+                <div class = "row">
+                <div class="card text-white bg-dark mb-6">
+                    <div class="card-header"> Other Visualizations: </div>
+                    <div class="card-body">
+                        <div class="col-md-6">  
+                        <div class = "row">
+                                <p> Current: Wind </p>
+                                <a href= "viz1.html"> <img src="visualizations/LatvWind_all.png" alt = "Latitude v. Wind" class="img-thumbnail"></a>
+                                <hr>
+                            </div>
+                        <div class = "row">
+                                <p> Cloudiness</p>
+                                <a href= "viz2.html"> <img src="visualizations/LatvClouds_all.png" alt = "Latitude v. Clouds" class="img-thumbnail"></a>
+                                <hr>
+                        </div>
+                        <div class="row">
+                                <p> Temperature </p>
+                                <a href= "viz3.html"> <img src="visualizations/LatvTemp_all.png" alt = "Latitude v. Temp" class="img-thumbnail"></a>
+                                <hr>
+                            </div>
+                            <div class = "row">
+                                <p> Humidity </p>
+                                <a href= "viz4.html"> <img src="visualizations/LatvHumidity_all.png" alt = "Latitude v. Humidity" class="img-thumbnail"></a>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+      </div>
+  </body>
+</html>
